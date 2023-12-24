@@ -58,7 +58,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 300,
                   width: 300,
                   decoration: const BoxDecoration(
-                      shape: BoxShape.circle, color: Colors.purple),
+                      shape: BoxShape.circle,
+                      color: Color.fromARGB(255, 0, 0, 0)),
                 ),
               ),
               Align(
@@ -67,7 +68,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 300,
                   width: 300,
                   decoration: const BoxDecoration(
-                      shape: BoxShape.circle, color: Colors.purple),
+                      shape: BoxShape.circle,
+                      color: Color.fromARGB(255, 29, 30, 28)),
                 ),
               ),
               Align(
@@ -76,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 300,
                   width: 300,
                   decoration: const BoxDecoration(
-                    color: Color(0xffffAB40),
+                    color: Color.fromARGB(255, 243, 142, 11),
                   ),
                 ),
               ),
